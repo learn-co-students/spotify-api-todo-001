@@ -3,10 +3,10 @@ require 'json'
 
 class SpotifyChart
 
-  BASE_URL = "http://charts.spotify.com/api/tracks/"
+  BASE_URL = "http://charts.spotify.com/api/tracks/most_streamed"
 
-  def get_url(version, region)
-    BASE_URL + version + "/" + region  + "/weekly/latest"
+  def get_url(region)
+    BASE_URL + "/" + region  + "/weekly/latest"
   end
 
   def get_json(url)
@@ -19,12 +19,7 @@ class SpotifyChart
   end
 
   def most_streamed(region)
-    music_hash = get_json(get_url("most_streamed", region))
-    get_first_track_info(music_hash)
-  end
-
-  def most_shared(region)
-    music_hash = get_json(get_url("most_shared", region))
+    music_hash = get_json(get_url(region))
     get_first_track_info(music_hash)
   end
 
