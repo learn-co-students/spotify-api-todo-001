@@ -13,7 +13,8 @@ describe SpotifyChart do
   let(:spotify_chart) { SpotifyChart.new }
 
   describe "#get_url" do
-    it "- accepts one arguement, the desired region" do
+
+    it "- accepts one argument, the desired region" do
       expect { spotify_chart.get_url("us") }.to_not raise_error
     end
 
@@ -25,9 +26,7 @@ describe SpotifyChart do
 
     it "- returns a string with the base url
       followed by a slash
-      then the first argument
-      followed by a slash
-      then the second argument
+      then the region
       followed by a slash
       ending with 'weekly/latest'                        " do
 
@@ -79,12 +78,12 @@ describe SpotifyChart do
   end
 
   describe '#most_streamed' do
-    
+
     it "accepts one argument, the region" do
       # v subbing out get_json method so that test can predict result v
       class SpotifyChart
         def get_json(arg)
-          JSON.parse( IO.read("spec/support/gb_most_streamed.json"))
+          JSON.parse( IO.read("spec/support/us_most_streamed.json"))
         end
       end
       # ^ subbing out get_json method so that test can predict result ^
