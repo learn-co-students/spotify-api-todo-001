@@ -36,3 +36,5 @@ Did your guess match the first track listed? Were you right? Do you think the to
 * [StackOverflow](http://stackoverflow.com/) - [JSON.load](http://stackoverflow.com/questions/18581792/ruby-on-rails-and-json-parser-from-url?answertab=votes#tab-top)
 * [RubyDocs](http://www.ruby-doc.org/) - [JSON Load Method](http://www.ruby-doc.org/stdlib-2.0.0/libdoc/json/rdoc/JSON.html#method-i-load)
 * [Spotify](https://developer.spotify.com/) - [Chart Documentation](http://charts.spotify.com/docs)
+
+<a href='https://learn.co/lessons/spotify-api-todo' data-visibility='hidden'>View this lesson on Learn.co</a>
