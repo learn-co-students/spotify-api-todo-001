@@ -37,4 +37,4 @@ Did your guess match the first track listed? Were you right? Do you think the to
 * [RubyDocs](http://www.ruby-doc.org/) - [JSON Load Method](http://www.ruby-doc.org/stdlib-2.0.0/libdoc/json/rdoc/JSON.html#method-i-load)
 * [Spotify](https://developer.spotify.com/) - [Chart Documentation](http://charts.spotify.com/docs)
 
-<a href='https://learn.co/lessons/spotify-api-todo' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/spotify-api-todo' title='Spotify's Chart API Todo'>Spotify's Chart API Todo</a> on Learn.co and start learning to code for free.</p>
